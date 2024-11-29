@@ -1,0 +1,21 @@
+:root {
+  background-color: whitesmoke;
+  margin: 0 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewBtn{
+  border-radius: 5px;
+  padding: 0 15px;
+  background-color:blanchedalmond;
+}
+.viewBtn:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+table{
+  border:1px solid gainsboro;
+}
+th{
+  height: 50px;
+}

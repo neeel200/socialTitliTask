@@ -1,0 +1,7 @@
+[
+  { "label": "--Select--", "value": "Select" },
+  { "label": "A", "value": "A" },
+  { "label": "B", "value": "B" },
+  { "label": "C", "value": "C" },
+  { "label": "D", "value": "D" }
+]
