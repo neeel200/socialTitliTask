@@ -42,7 +42,7 @@ const PDFTronViewer = () => {
           onChange={handleFileUpload}
         />
       </div>
-      <div className="webviewer" ref={viewer} style={{ height: '600px' }}></div>
+      <div  ref={viewer} style={{ height: '600px' }}></div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
   background-color: whitesmoke;
   margin: 0 5%;
@@ -32,11 +33,16 @@ th {
   font-size: 1.2rem;
 }
 
+.txtEdit {
+  background-image: linear-gradient(to right, #e3dec3, #ee8768);
+}
+
 .navBtn:hover{
   cursor: pointer;
 }
 .navBtn a {
   text-decoration: none;
+ 
 }
 
 .App {
@@ -55,4 +61,29 @@ th {
   font-size: 1.2em;
   line-height: 44px;
   color: white;
+}
+
+
+@media print {
+	body {
+		margin: 0 !important;
+	}
+}
+
+.main-container {
+	font-family: 'Lato';
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ck-content {
+	font-family: 'Lato';
+	line-height: 1.6;
+	word-break: break-word;
+}
+
+.editor-container_classic-editor .editor-container__editor {
+	min-width: 795px;
+	max-width: 795px;
 }
