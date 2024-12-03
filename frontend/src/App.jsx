@@ -5,7 +5,7 @@ import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import wingOptions from "../wingData.json";
 import { PDFTronViewer } from "./components/PDFTronViewer";
-import TextEditor from "./components/textEditor";
+import TextEditor from "./components/TextEditor";
 const App = () => {
   const [wing, setWing] = useState(undefined);
   const handleChange = (event) => {
